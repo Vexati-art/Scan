@@ -16,10 +16,10 @@ while ($item = mysqli_fetch_object($r)) {
 	$dec = json_decode($json, true);
 	
 	echo "<ul>";
-	echo "<li>". $dec["top"] ."</li>";
-	echo "<li>". $dec["name"]." </li>";
-	echo "<li>". $dec["score"] ."</li>";
-	echo "<li>". $dec["team"] ."</li>";
+	echo "<li>". $dec["Top"] ."</li>";
+	echo "<li>". $dec["Name"]." </li>";
+	echo "<li>". $dec["Score"] ."</li>";
+	echo "<li>". $dec["Team"] ."</li>";
 	echo "</ul>";
 	echo "</ul>";
 }
